@@ -3,7 +3,7 @@
     background-color: var(--background-main);
 }
 
-.clints-title {
+.clints__title {
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -13,13 +13,13 @@
     letter-spacing: 0.03em;
 }
 
-.clients-list {
+.clients__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.clients-icon-link {
+.clients__icon {
     display: flex;
     align-items: center;
     justify-content: center;

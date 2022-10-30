@@ -3,10 +3,13 @@
 @import './utils/common';
 @import './utils/hidden';
 
+@import './components/logo';
+@import './components/soc';
+
 @import './layouts/header';
 @import './layouts/hero';
-@import './layouts/fundamental';
 @import './layouts/properties';
+@import './layouts/services';
 @import './layouts/team';
 @import './layouts/cliets';
 @import './layouts/footer';

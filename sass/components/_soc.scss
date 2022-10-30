@@ -1,0 +1,46 @@
+.soc__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.soc__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.soc__link--light {
+    background-color: var(--background-main);
+    fill: #AFB1B8;
+
+    transition-property: background-color, fill;
+    @extend %animation;
+
+    &:hover,
+    &:focus {
+        background-color: var(--background-accent);
+        fill: var(--white);
+    }
+}
+
+.soc__link--dark {
+
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--white);
+
+    transition-property: background-color;
+    @extend %animation;
+
+    &:hover,
+    &:focus {
+        background-color: var(--background-accent);
+    }
+}
